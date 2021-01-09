@@ -13,7 +13,7 @@
 @-moz-document domain("duolingo.com") {
 dummy /* class _3W86r means /learn page only, not /shop */
  /* to avoid hiding some elem use #div */
-, div._3W86r div._1_p4S._3Gj5_ /* no duo legaue only */
+, #div._3W86r div._1_p4S._3Gj5_ /* no duo legaue only */
 , #div._3W86r div._2O43A._3ZuGY /* no weekly progress */
 , div._3W86r div._1UOwI._3bfsh /* no advert framed area */
 , div.iLgf- div._1UOwI._3bfsh /* no advert in shop */
