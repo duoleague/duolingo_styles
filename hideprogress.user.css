@@ -1,9 +1,9 @@
-﻿/* ==UserStyle==
-@name         Duolingo Hide League
+/* ==UserStyle==
+@name         Duolingo Hide Progress
 @namespace    https://github.com/openstyles/stylus/
 @homepageURL  https://github.com/duoleague/duolingo_styles
 @supportURL   https://github.com/duoleague/duolingo_styles/issues
-@updateURL    https://github.com/duoleague/duolingo_styles/hideleague.user.css
+@updateURL    https://github.com/duoleague/duolingo_styles/hideprogress.user.css
 @version      2021.1.13
 @description  Make leaderboard invisible on /learn page
 @author       cansado_sin_sol
@@ -13,7 +13,7 @@
 @-moz-document domain("duolingo.com") {
 dummy /* class _3W86r means /learn page only, not /shop */
  /* to avoid hiding some elem use #div */
-, div._3W86r div._1_p4S._3Gj5_ /* no duo legaue only */
+, div._3W86r div._2O43A._3ZuGY /* no weekly progress */
 {
     display: none !important;
 }

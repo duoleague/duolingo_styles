@@ -1,11 +1,11 @@
-﻿/* ==UserStyle==
-@name         Duolingo Hide League
+/* ==UserStyle==
+@name         Duolingo Hide DuoPlus
 @namespace    https://github.com/openstyles/stylus/
 @homepageURL  https://github.com/duoleague/duolingo_styles
 @supportURL   https://github.com/duoleague/duolingo_styles/issues
-@updateURL    https://github.com/duoleague/duolingo_styles/hideleague.user.css
+@updateURL    https://github.com/duoleague/duolingo_styles/hideduoplus.user.css
 @version      2021.1.13
-@description  Make leaderboard invisible on /learn page
+@description  Make DuoPlus advert invisible on /learn and /shop pages
 @author       cansado_sin_sol
 @license      agpl3
 ==/UserStyle== */
@@ -13,7 +13,10 @@
 @-moz-document domain("duolingo.com") {
 dummy /* class _3W86r means /learn page only, not /shop */
  /* to avoid hiding some elem use #div */
-, div._3W86r div._1_p4S._3Gj5_ /* no duo legaue only */
+, div._3yqw1.np6Tv /* no PLUS eyes on learn */
+, div._3o_lc /* no duo plus in shop */
+, div.SQR8J.wm1bO /* no duo plus after learn */
+, div._2WZQR /* no duo plus warning on discuss */
 {
     display: none !important;
 }
