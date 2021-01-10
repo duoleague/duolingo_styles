@@ -12,6 +12,7 @@ by clicking on [Raw](https://github.com/duoleague/duolingo_styles/raw/main/hidet
 or create your own configuration with any of one-by-one styles:
 
 * [Hide Advert](https://github.com/duoleague/duolingo_styles/blob/main/hideadvert.user.css)
+* [Hide Anime](https://github.com/duoleague/duolingo_styles/blob/main/hideanime.user.css)
 * [Hide DuoPlus](https://github.com/duoleague/duolingo_styles/blob/main/hideduoplus.user.css)
 * [Hide Friends](https://github.com/duoleague/duolingo_styles/blob/main/hidefriends.user.css)
 * [Hide League](https://github.com/duoleague/duolingo_styles/blob/main/hideleague.user.css)
