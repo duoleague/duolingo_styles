@@ -22,7 +22,7 @@ You can install all this style and then switch each one on/off via Stylus Manage
 
 ## how to use
 
-It is very simple and plain.
+It is very simple and plain: the result will be seen immediately.
 
 ## как установить
 
@@ -37,4 +37,4 @@ It is very simple and plain.
 
 ## как использовать
 
-Очень просто.
+Очень просто: стили применяются к сайту дуолинго сразу после установки.
