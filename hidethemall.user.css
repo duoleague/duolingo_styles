@@ -1,4 +1,4 @@
-/* ==UserStyle==
+﻿/* ==UserStyle==
 @name         Duolingo Hide Them All
 @namespace    https://github.com/openstyles/stylus/
 @homepageURL  https://github.com/duoleague/duolingo_styles
@@ -15,11 +15,13 @@ dummy /* class _3W86r means /learn page only, not /shop */
  /* to avoid hiding some elem use #div */
 , div._3W86r div._1_p4S._3Gj5_ /* no duo legaue only */
 , #div._3W86r div._2O43A._3ZuGY /* no weekly progress */
+, div._3W86r div.XPBox /* no XPBreakdown */ 
+, div._3W86r div#languagesBox /* no languages info */
 , div._3W86r div._1UOwI._3bfsh /* no advert framed area */
 , div.iLgf- div._1UOwI._3bfsh /* no advert in shop */
 , div._3W86r div.Yth9H._3ZuGY /* no next achievement */
-, div._3W86r div._3Gj5_:nth-child(5) /* no friends */
-, div._3W86r div._3Gj5_:nth-child(6) /* no share */
+, div._3W86r div._3Gj5_:nth-last-of-type(2):not(:first-of-type) /* no friends */
+, div._3W86r div._3Gj5_:last-of-type:not(:only-child):not(:nth-of-type(2)) /* no share */
 , div._3o_lc /* no duo plus in shop */
 , div._2Dn_R /* no duo anim gif */
 , div.SQR8J.wm1bO /* no duo plus after learn */

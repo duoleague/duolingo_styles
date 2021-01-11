@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name         Duolingo Hide Friends
+@name         Duolingo Hide Strength
 @namespace    https://github.com/openstyles/stylus/
 @homepageURL  https://github.com/duoleague/duolingo_styles
 @supportURL   https://github.com/duoleague/duolingo_styles/issues
-@updateURL    https://github.com/duoleague/duolingo_styles/hidefriends.user.css
+@updateURL    https://github.com/duoleague/duolingo_styles/hidestrength.user.css
 @version      2021.1.13
-@description  Make next achievement, friends and share invisible on /learn page
+@description  Make strength invisible on /learn page
 @author       cansado_sin_sol
 @license      agpl3
 ==/UserStyle== */
@@ -13,9 +13,8 @@
 @-moz-document domain("duolingo.com") {
 dummy /* class _3W86r means /learn page only, not /shop */
  /* to avoid hiding some elem use #div */
-, div._3W86r div.Yth9H._3ZuGY /* no next achievement */
-, div._3W86r div._3Gj5_:nth-last-of-type(2):not(:first-of-type) /* no friends */
-, div._3W86r div._3Gj5_:last-of-type:not(:only-child):not(:nth-of-type(2)) /* no share */
+, div._3W86r div.XPBox /* no XPBreakdown */ 
+, div._3W86r div#languagesBox /* no languages info */
 {
     display: none !important;
 }

@@ -17,6 +17,7 @@ or create your own configuration with any of one-by-one styles:
 * [Hide Friends](https://github.com/duoleague/duolingo_styles/blob/main/hidefriends.user.css)
 * [Hide League](https://github.com/duoleague/duolingo_styles/blob/main/hideleague.user.css)
 * [Hide Progress](https://github.com/duoleague/duolingo_styles/blob/main/hideprogress.user.css)
+* [Hide Strength](https://github.com/duoleague/duolingo_styles/blob/main/hidestrength.user.css)
 
 You can install all this style and then switch each one on/off via Stylus Manager.
 
