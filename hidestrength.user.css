@@ -15,6 +15,7 @@ dummy /* class _3W86r means /learn page only, not /shop */
  /* to avoid hiding some elem use #div */
 , div._3W86r div.XPBox /* no XPBreakdown */ 
 , div._3W86r div#languagesBox /* no languages info */
+, div._3W86r div._3ZuGY.sidebarCrownsInfoContainer /* no crowns info */
 {
     display: none !important;
 }
