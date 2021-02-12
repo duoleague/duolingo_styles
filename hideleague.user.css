@@ -1,10 +1,10 @@
-﻿/* ==UserStyle==
+/* ==UserStyle==
 @name         Duolingo Hide League
 @namespace    https://github.com/openstyles/stylus/
 @homepageURL  https://github.com/duoleague/duolingo_styles
 @supportURL   https://github.com/duoleague/duolingo_styles/issues
 @updateURL    https://github.com/duoleague/duolingo_styles/hideleague.user.css
-@version      2021.1.13
+@version      2021.2.13
 @description  Make leaderboard invisible on /learn page
 @author       cansado_sin_sol
 @license      agpl3
@@ -17,4 +17,5 @@ dummy /* class _3W86r means /learn page only, not /shop */
 {
     display: none !important;
 }
+    div.iLgf- div._2Rsru {height: auto !important;}
 }
