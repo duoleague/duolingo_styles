@@ -4,7 +4,7 @@
 @homepageURL  https://github.com/duoleague/duolingo_styles
 @supportURL   https://github.com/duoleague/duolingo_styles/issues
 @updateURL    https://github.com/duoleague/duolingo_styles/hidethemall.user.css
-@version      2021.1.13
+@version      2021.2.13
 @description  Make league, advert and friends invisible on /learn page etc.
 @author       cansado_sin_sol
 @license      agpl3
@@ -32,4 +32,5 @@ dummy /* class _3W86r means /learn page only, not /shop */
 {
     display: none !important;
 }
+    div.iLgf- div._2Rsru {height: auto !important;}
 }
